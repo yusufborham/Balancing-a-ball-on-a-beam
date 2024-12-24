@@ -13,7 +13,7 @@ Servo servo;
 Adafruit_VL53L1X vl53 = Adafruit_VL53L1X(XSHUT_PIN, IRQ_PIN);
 
 // declare variables
-float input = 0, error = 0, kp = 0.3, ki = 0.01, kd = 0.2, setpoint = 200, output = 0;
+float input = 0, error = 0, kp = 0.3, ki = 0.01, kd = 0.15, setpoint = 200, output = 0;
 float maxOutput = 70, minOutput = -60;
 float distance;
 
