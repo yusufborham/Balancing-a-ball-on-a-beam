@@ -2,8 +2,6 @@
 #include <Servo.h>
 #include "Adafruit_VL53L1X.h"
 
-#define TRIG_PIN 2
-#define ECHO_PIN 3
 #define IRQ_PIN 2
 #define XSHUT_PIN 3
 
